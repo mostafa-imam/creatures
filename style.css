@@ -196,3 +196,14 @@ h1, h2, h3 {
 .call-to-action-container .container div {
     color: white;
 }
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+}
