@@ -18,7 +18,7 @@ body {
     padding: 0 30px;
 }
 
-img {
+.box > img {
     height: auto;
     width: 200px;
 }
@@ -32,7 +32,7 @@ h1, h2, h3 {
 .navbar {
     background-color: #1f2937;
     height: 50px;
-    margin-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.288);
 }
 
 .navbar > .container {
@@ -61,3 +61,42 @@ h1, h2, h3 {
     font-size: 18px
 }
 
+/* header styles */
+
+.header {
+    background-color: #1f2937;
+}
+
+.header > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header .container div {
+    max-width: 500px;
+}
+
+.container > img {
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.header h1 {
+    color: #f9faf8;
+}
+
+.header p {
+    color: #e5e7eb;
+    margin-top: 20px;
+}
+
+.header button {
+    padding: 5px 15px;
+    margin-top: 20px;
+}
